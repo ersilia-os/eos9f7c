@@ -1,1 +1,2 @@
 name,type,direction,description
+permeability_proba,float,high,Probability of permeation across gram-negative membranes

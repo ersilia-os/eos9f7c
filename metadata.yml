@@ -8,41 +8,30 @@ Description: Antibiotic compounds belonging to 16 chemical classes were evaluate
   compounds as permeable and non-permeable. In the original article, MexB ensemble
   docking calculations and molecular dynamics simulations of the outer membrane were
   used used as features for a predictive model, on top of intrinsic physicochemical
-  parameters of the molecules. Instead, we simply build a model with our baseline
-  modeling tool LazyQSAR.
+  parameters of the molecules. Here we build a baseline model to predict permeability using LazyQSAR.
 Deployment:
 - Local
-- Online
-Source: Local, Online
-Source Type: Internal, Replicated, External
-Task: Annotation, Representation, Sampling
-Subtask: Property calculation or prediction, Activity prediction, Featurization, Projection,
-  Similarity search, Generation
+Source: Local
+Source Type: Internal
+Task: Annotation
+Subtask: Activity prediction
 Input:
 - Compound
 Input Dimension: 1
 Output:
-- Value
 - Score
-- Compound
-- Probability
-- Experimental value
-- '...'
 Output Dimension: 1
-Output Consistency: Fixed, Variable
-Interpretation: 'The output of this template model should be interpreted like this.
-
-  '
+Output Consistency: Fixed
+Interpretation: 'Probability of permeability across the P.aeruginosa membrane'
 Tag:
 - Antimicrobial activity
 Biomedical Area:
-- Biomedical Area 1
-- Biomedical Area 2
+- Antimicrobial resistance
 Target Organism:
-- Target Organism 1
-- Target Organism 2
-Publication Type: Peer reviewed, Preprint, Other
+- Pseudomonas aeruginosa
+- Gram-negative bacteria
+Publication Type: Peer reviewed
 Publication Year: 2025
 Publication: https://www.nature.com/articles/s42004-024-01161-y
 Source Code: https://github.com/ersilia-os/lazy-qsar
-License: MIT
+License: GPL-3.0-or-later
