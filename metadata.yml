@@ -2,36 +2,38 @@ Identifier: eos9f7c
 Slug: paeruginosa-permeation
 Status: In progress
 Title: Permeation of compounds across the outer membrane of P. aeruginosa
-Description: Antibiotic compounds belonging to 16 chemical classes were evaluated
-  for their ability to inhibit (IC50) three strains of Pseudomonas aeruginosa (wild-type,
-  efflux-deficient, and efflux-deficient and porinated). Results were used to classify
-  compounds as permeable and non-permeable. In the original article, MexB ensemble
-  docking calculations and molecular dynamics simulations of the outer membrane were
-  used used as features for a predictive model, on top of intrinsic physicochemical
-  parameters of the molecules. Here we build a baseline model to predict permeability using LazyQSAR.
+Description: Antibiotic compounds belonging to 16 chemical classes were 
+  evaluated for their ability to inhibit (IC50) three strains of Pseudomonas 
+  aeruginosa (wild-type, efflux-deficient, and efflux-deficient and porinated). 
+  Results were used to classify compounds as permeable and non-permeable. In the
+  original article, MexB ensemble docking calculations and molecular dynamics 
+  simulations of the outer membrane were used used as features for a predictive 
+  model, on top of intrinsic physicochemical parameters of the molecules. Here 
+  we build a baseline model to predict permeability using LazyQSAR.
 Deployment:
-- Local
+  - Local
 Source: Local
 Source Type: Internal
 Task: Annotation
 Subtask: Activity prediction
 Input:
-- Compound
+  - Compound
 Input Dimension: 1
 Output:
-- Score
+  - Score
 Output Dimension: 1
 Output Consistency: Fixed
-Interpretation: 'Probability of permeability across the P.aeruginosa membrane'
+Interpretation: Probability of permeability across the P.aeruginosa membrane
 Tag:
-- Antimicrobial activity
+  - Antimicrobial activity
 Biomedical Area:
-- Antimicrobial resistance
+  - Antimicrobial resistance
 Target Organism:
-- Pseudomonas aeruginosa
-- Gram-negative bacteria
+  - Pseudomonas aeruginosa
+  - Gram-negative bacteria
 Publication Type: Peer reviewed
 Publication Year: 2025
 Publication: https://www.nature.com/articles/s42004-024-01161-y
 Source Code: https://github.com/ersilia-os/lazy-qsar
 License: GPL-3.0-or-later
+Incorporation Date: '2025-12-12'
