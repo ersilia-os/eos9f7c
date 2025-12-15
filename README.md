@@ -2,6 +2,7 @@
 
 Antibiotic compounds belonging to 16 chemical classes were evaluated for their ability to inhibit (IC50) three strains of Pseudomonas aeruginosa (wild-type, efflux-deficient, and efflux-deficient and porinated). Results were used to classify compounds as permeable and non-permeable. In the original article, MexB ensemble docking calculations and molecular dynamics simulations of the outer membrane were used used as features for a predictive model, on top of intrinsic physicochemical parameters of the molecules. Here we build a baseline model to predict permeability using LazyQSAR.
 
+This model was incorporated on 2025-12-12.
 
 
 ## Information
