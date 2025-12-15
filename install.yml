@@ -1,4 +1,4 @@
 python: "3.12"
 commands:
-    - ["pip", "lazyqsar[desciptors]", "2.2.2"]
+    - ["pip", "lazyqsar[descriptors]", "2.2.2"]
     - "lazyqsar-setup"
