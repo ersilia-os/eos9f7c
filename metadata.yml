@@ -1,6 +1,6 @@
 Identifier: eos9f7c
 Slug: paeruginosa-permeation
-Status: In progress
+Status: Ready
 Title: Permeation of compounds across the outer membrane of P. aeruginosa
 Description: Antibiotic compounds belonging to 16 chemical classes were 
   evaluated for their ability to inhibit (IC50) three strains of Pseudomonas 
@@ -37,6 +37,18 @@ Publication: https://www.nature.com/articles/s42004-024-01161-y
 Source Code: https://github.com/ersilia-os/lazy-qsar
 License: GPL-3.0-or-later
 Incorporation Date: '2025-12-12'
+Last Packaging Date: '2025-12-15'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9f7c.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos9f7c
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 3.0
 Environment Size: 1916.0
+Image Size: 1939.69
+Computational Performance 1: 32.75
+Computational Performance 2: 23.05
+Computational Performance 3: 27.74
+Computational Performance 4: 123.74
+Computational Performance 5: 565.32
