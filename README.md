@@ -2,8 +2,7 @@
 
 Antibiotic compounds belonging to 16 chemical classes were evaluated for their ability to inhibit (IC50) three strains of Pseudomonas aeruginosa (wild-type, efflux-deficient, and efflux-deficient and porinated). Results were used to classify compounds as permeable and non-permeable. In the original article, MexB ensemble docking calculations and molecular dynamics simulations of the outer membrane were used used as features for a predictive model, on top of intrinsic physicochemical parameters of the molecules. Here we build a baseline model to predict permeability using LazyQSAR.
 
-This model was incorporated on 2025-12-12.
-
+This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 
 ## Information
 ### Identifiers
@@ -35,12 +34,19 @@ Below are the **Output Columns** of the model:
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `Internal`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos9f7c](https://hub.docker.com/r/ersiliaos/eos9f7c)
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9f7c.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9f7c.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `3`
 - **Environment Size (Mb):** `1916`
+- **Image Size (Mb):** `1939.69`
 
+**Computational Performance (seconds):**
+- 10 inputs: `32.75`
+- 100 inputs: `27.74`
+- 10000 inputs: `565.32`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/lazy-qsar](https://github.com/ersilia-os/lazy-qsar)
