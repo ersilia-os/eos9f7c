@@ -1,5 +1,4 @@
 python: "3.12"
 commands:
-    - ["pip", "lazyqsar", "2.2.1"]
-    - ["pip", "rdkit", "2025.9.1"]
+    - ["pip", "lazyqsar", "2.2.2"]
     - "lazyqsar-setup"
