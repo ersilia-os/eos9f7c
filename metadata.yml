@@ -2,14 +2,7 @@ Identifier: eos9f7c
 Slug: paeruginosa-permeation
 Status: Ready
 Title: Permeation of compounds across the outer membrane of P. aeruginosa
-Description: Antibiotic compounds belonging to 16 chemical classes were 
-  evaluated for their ability to inhibit (IC50) three strains of Pseudomonas 
-  aeruginosa (wild-type, efflux-deficient, and efflux-deficient and porinated). 
-  Results were used to classify compounds as permeable and non-permeable. In the
-  original article, MexB ensemble docking calculations and molecular dynamics 
-  simulations of the outer membrane were used used as features for a predictive 
-  model, on top of intrinsic physicochemical parameters of the molecules. Here 
-  we build a baseline model to predict permeability using LazyQSAR.
+Description: Estimates whether a compound crosses the outer membrane of Pseudomonas aeruginosa, an organism whose envelope is markedly less permeable than that of other Gram-negative bacteria and which sits high on the WHO priority list. The authors measured accumulation for a compound set and related it to calculated molecular descriptors, identifying the physicochemical ranges that favour entry. Permeation is a prerequisite for activity, so a high score indicates access to the cell rather than antibacterial effect.
 Deployment:
   - Local
 Source: Local
@@ -23,7 +16,7 @@ Output:
   - Score
 Output Dimension: 1
 Output Consistency: Fixed
-Interpretation: Probability of permeability across the P.aeruginosa membrane
+Interpretation: Probability that a compound permeates the Pseudomonas aeruginosa outer membrane.
 Tag:
   - Antimicrobial activity
   - Gram-negative bacteria
@@ -33,7 +26,7 @@ Biomedical Area:
 Target Organism:
   - Pseudomonas aeruginosa
 Publication Type: Peer reviewed
-Publication Year: 2025
+Publication Year: 2024
 Publication: https://doi.org/10.1038/s42004-024-01161-y
 Source Code: https://github.com/ersilia-os/lazy-qsar
 License: GPL-3.0-or-later
@@ -54,4 +47,3 @@ Computational Performance 2: 23.05
 Computational Performance 3: 27.74
 Computational Performance 4: 123.74
 Computational Performance 5: 565.32
-Publication: https://doi.org/10.1038/s42004-024-01161-y
