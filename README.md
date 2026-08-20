@@ -1,6 +1,6 @@
 # Permeation of compounds across the outer membrane of P. aeruginosa
 
-Estimates whether a compound crosses the outer membrane of Pseudomonas aeruginosa, an organism whose envelope is markedly less permeable than that of other Gram-negative bacteria and which sits high on the WHO priority list. The authors measured accumulation for a compound set and related it to calculated molecular descriptors, identifying the physicochemical ranges that favour entry. Permeation is a prerequisite for activity, so a high score indicates access to the cell rather than antibacterial effect.
+Antibiotic compounds belonging to 16 chemical classes were evaluated for their ability to inhibit (IC50) three strains of Pseudomonas aeruginosa (wild-type, efflux-deficient, and efflux-deficient and porinated). Results were used to classify compounds as permeable and non-permeable. In the original article, MexB ensemble docking calculations and molecular dynamics simulations of the outer membrane were used used as features for a predictive model, on top of intrinsic physicochemical parameters of the molecules. Here we build a baseline model to predict permeability using LazyQSAR.
 
 This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability that a compound permeates the Pseudomonas aeruginosa outer membrane.
+- **Interpretation:** Probability of permeability across the P.aeruginosa membrane
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
