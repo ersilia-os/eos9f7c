@@ -1,6 +1,6 @@
 # Permeation of compounds across the outer membrane of P. aeruginosa
 
-Estimates whether a compound crosses the outer membrane of Pseudomonas aeruginosa, an organism whose envelope is markedly less permeable than that of other Gram-negative bacteria and which sits high on the WHO priority list. The authors measured accumulation for a compound set and related it to calculated molecular descriptors, identifying the physicochemical ranges that favour entry. Permeation is a prerequisite for activity, so a high score indicates access to the cell rather than antibacterial effect.
+Scores how readily a compound crosses the outer membrane of Pseudomonas aeruginosa, the barrier that keeps most antibiotics out of this priority pathogen. Manrique and colleagues measured growth inhibition for 1260 antimicrobials across sixteen chemotypes against wild-type, efflux-deficient and hyperporinated strains, labelling permeators from the ratio of the last two IC50 values. Their own classifier added MexB ensemble docking and membrane dynamics descriptors; Ersilia instead provides a structure-only baseline trained with LazyQSAR. Permeation enables activity but is not activity.
 
 This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability that a compound permeates the Pseudomonas aeruginosa outer membrane.
+- **Interpretation:** Probability that a compound is a strong permeator of the Pseudomonas aeruginosa outer membrane, IC50 ratio above 0.5.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
