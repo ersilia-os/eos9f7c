@@ -23,7 +23,7 @@ This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Rank score of a compound's predicted permeation of the Pseudomonas aeruginosa outer membrane (IC50 ratio above 0.5), calibrated against a reference library of 50,000 drug-like molecules. A rank score above 0.65 beats 99% of that library.
+- **Interpretation:** Rank score of a compounds predicted permeation of the Pseudomonas aeruginosa outer membrane (IC50 ratio above 0.5), calibrated against a reference library of 50,000 drug-like molecules. A rank score above 0.65 beats 99% of that library.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
@@ -39,8 +39,8 @@ Below are the **Output Columns** of the model:
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9f7c.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9f7c.zip)
 
 ### Resource Consumption
-- **Model Size (Mb):** `3`
-- **Environment Size (Mb):** `1916`
+- **Model Size (Mb):** `9`
+- **Environment Size (Mb):** `1930`
 - **Image Size (Mb):** `1939.69`
 
 **Computational Performance (seconds):**
