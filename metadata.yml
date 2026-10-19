@@ -2,14 +2,14 @@ Identifier: eos9f7c
 Slug: paeruginosa-permeation
 Status: Ready
 Title: Permeation of compounds across the outer membrane of P. aeruginosa
-Description: Scores how readily a compound crosses the outer membrane of Pseudomonas
-  aeruginosa, the barrier that keeps most antibiotics out of this priority pathogen.
-  Manrique and colleagues measured growth inhibition for 1260 antimicrobials across
-  sixteen chemotypes against wild-type, efflux-deficient and hyperporinated strains,
-  labelling permeators from the ratio of the last two IC50 values. Their own classifier
-  added MexB ensemble docking and membrane dynamics descriptors; Ersilia instead provides
-  a structure-only baseline trained with LazyQSAR. Permeation enables activity but
-  is not activity.
+Description: Scores how readily a compound crosses the outer membrane of 
+  Pseudomonas aeruginosa, the barrier that keeps most antibiotics out of this 
+  priority pathogen. Manrique and colleagues measured growth inhibition for 1260
+  antimicrobials across sixteen chemotypes against wild-type, efflux-deficient 
+  and hyperporinated strains, labelling permeators from the ratio of the last 
+  two IC50 values. Their own classifier added MexB ensemble docking and membrane
+  dynamics descriptors; Ersilia instead provides a structure-only baseline 
+  trained with LazyQSAR. Permeation enables activity but is not activity.
 Deployment:
   - Local
 Source: Local
@@ -23,9 +23,10 @@ Output:
   - Score
 Output Dimension: 1
 Output Consistency: Fixed
-Interpretation: Rank score of a compound's predicted permeation of the Pseudomonas
-  aeruginosa outer membrane (IC50 ratio above 0.5), calibrated against a reference library
-  of 50,000 drug-like molecules. A rank score above 0.65 beats 99% of that library.
+Interpretation: Rank score of a compounds predicted permeation of the 
+  Pseudomonas aeruginosa outer membrane (IC50 ratio above 0.5), calibrated 
+  against a reference library of 50,000 drug-like molecules. A rank score above 
+  0.65 beats 99% of that library.
 Tag:
   - Antimicrobial activity
   - Gram-negative bacteria
