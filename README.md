@@ -12,9 +12,9 @@ This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 ### Domain
 - **Task:** `Annotation`
 - **Subtask:** `Activity prediction`
-- **Biomedical Area:** `Antimicrobial resistance`
-- **Target Organism:** `Pseudomonas aeruginosa`, `Gram-negative bacteria`
-- **Tags:** `Antimicrobial activity`
+- **Biomedical Area:** `Antimicrobial resistance`, `Pneumonia`
+- **Target Organism:** `Pseudomonas aeruginosa`
+- **Tags:** `Antimicrobial activity`, `Gram-negative bacteria`
 
 ### Input
 - **Input:** `Compound`
@@ -23,12 +23,12 @@ This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability that a compound is a strong permeator of the Pseudomonas aeruginosa outer membrane, IC50 ratio above 0.5.
+- **Interpretation:** Rank score of a compound's predicted permeation of the Pseudomonas aeruginosa outer membrane (IC50 ratio above 0.5), calibrated against a reference library of 50,000 drug-like molecules. A rank score above 0.65 beats 99% of that library.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| permeability_proba | float | high | Probability of permeation across gram-negative membranes |
+| permeability_rank | float | high | Rank score of the compound's predicted permeation across the Pseudomonas aeruginosa outer membrane. Calibrated against a reference library of 50K drug-like molecules so that a score of 0.65 is better than 99% of them. Recommended threshold: 0.65. |
 
 
 ### Source and Deployment
