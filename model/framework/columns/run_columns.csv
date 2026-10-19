@@ -1,2 +1,2 @@
 name,type,direction,description
-permeability_proba,float,high,Probability of permeation across gram-negative membranes
+permeability_rank,float,high,Rank score of the compound's predicted permeation across the Pseudomonas aeruginosa outer membrane. Calibrated against a reference library of 50K drug-like molecules so that a score of 0.65 is better than 99% of them. Recommended threshold: 0.65.

@@ -23,8 +23,9 @@ Output:
   - Score
 Output Dimension: 1
 Output Consistency: Fixed
-Interpretation: Probability that a compound is a strong permeator of the Pseudomonas
-  aeruginosa outer membrane, IC50 ratio above 0.5.
+Interpretation: Rank score of a compound's predicted permeation of the Pseudomonas
+  aeruginosa outer membrane (IC50 ratio above 0.5), calibrated against a reference library
+  of 50,000 drug-like molecules. A rank score above 0.65 beats 99% of that library.
 Tag:
   - Antimicrobial activity
   - Gram-negative bacteria
