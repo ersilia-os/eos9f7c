@@ -23,7 +23,7 @@ This model was incorporated on 2025-12-12.Last packaged on 2026-10-19.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Rank score of a compounds predicted permeation of the Pseudomonas aeruginosa outer membrane (IC50 ratio above 0.5), calibrated against a reference library of 50,000 drug-like molecules. A rank score above 0.65 beats 99% of that library.
+- **Interpretation:** Rank score of the predicted permeation of a compound across the Pseudomonas aeruginosa outer membrane (IC50 ratio above 0.5), calibrated against a reference library of 50,000 drug-like molecules. A rank score above 0.65 beats 99% of that library.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
