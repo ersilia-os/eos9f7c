@@ -2,7 +2,8 @@
 
 Scores how readily a compound crosses the outer membrane of Pseudomonas aeruginosa, the barrier that keeps most antibiotics out of this priority pathogen. Manrique and colleagues measured growth inhibition for 1260 antimicrobials across sixteen chemotypes against wild-type, efflux-deficient and hyperporinated strains, labelling permeators from the ratio of the last two IC50 values. Their own classifier added MexB ensemble docking and membrane dynamics descriptors; Ersilia instead provides a structure-only baseline trained with LazyQSAR. Permeation enables activity but is not activity.
 
-This model was incorporated on 2025-12-12.Last packaged on 2026-10-22.
+This model was incorporated on 2025-12-12.
+Last packaged on 2026-10-22.
 
 ## Information
 ### Identifiers
@@ -37,6 +38,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos9f7c](https://hub.docker.com/r/ersiliaos/eos9f7c)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9f7c.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9f7c.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos9f7c_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos9f7c_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `9`
