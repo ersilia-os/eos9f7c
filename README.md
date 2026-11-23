@@ -1,6 +1,6 @@
 # Permeation of compounds across the outer membrane of P. aeruginosa
 
-Scores how readily a compound crosses the outer membrane of Pseudomonas aeruginosa, the barrier that keeps most antibiotics out of this priority pathogen. Manrique and colleagues measured growth inhibition for 1260 antimicrobials across sixteen chemotypes against wild-type, efflux-deficient and hyperporinated strains, labelling permeators from the ratio of the last two IC50 values. Their own classifier added MexB ensemble docking and membrane dynamics descriptors; Ersilia instead provides a structure-only baseline trained with LazyQSAR. Permeation enables activity but is not activity.
+Scores how readily a compound crosses the outer membrane of Pseudomonas aeruginosa, the barrier that keeps most antibiotics out of this priority pathogen. Manrique and colleagues measured growth inhibition for 1,260 antimicrobials against wild-type, efflux-deficient and hyperporinated strains, labelling permeators from the ratio of the last two IC50 values. Ersilia provides a structure-only LazyQSAR baseline trained on 600 compounds, 245 permeators, with a five-fold out-of-fold AUROC of 0.91. Permeation enables activity but is not activity.
 
 This model was incorporated on 2025-12-12.
 Last packaged on 2026-10-22.
