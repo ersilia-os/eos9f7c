@@ -3,7 +3,7 @@
 Scores how readily a compound crosses the outer membrane of Pseudomonas aeruginosa, the barrier that keeps most antibiotics out of this priority pathogen. Manrique and colleagues measured growth inhibition for 1,260 antimicrobials against wild-type, efflux-deficient and hyperporinated strains, labelling permeators from the ratio of the last two IC50 values. Ersilia provides a structure-only LazyQSAR baseline trained on 600 compounds, 245 permeators, with a five-fold out-of-fold AUROC of 0.91. Permeation enables activity but is not activity.
 
 This model was incorporated on 2025-12-12.
-Last packaged on 2026-10-22.
+Last packaged on 2026-11-23.
 
 ## Information
 ### Identifiers
@@ -43,12 +43,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `11`
 - **Environment Size (Mb):** `6954`
-- **Image Size (Mb):** `1912.2`
+- **Image Size (Mb):** `3130.18`
 
 **Computational Performance (seconds):**
-- 10 inputs: `33.4`
-- 100 inputs: `26.25`
-- 10000 inputs: `436.98`
+- 10 inputs: `35.62`
+- 100 inputs: `27.49`
+- 10000 inputs: `158.34`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/lazy-qsar](https://github.com/ersilia-os/lazy-qsar)
