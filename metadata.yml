@@ -43,7 +43,7 @@ License: GPL-3.0-or-later
 Contributor: miquelduranfrigola
 Incorporation Date: '2025-12-12'
 Last Packaging Date: '2026-11-23'
-Release: v2.0.2
+Release: v3.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9f7c.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos9f7c
 Docker Architecture:
