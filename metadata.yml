@@ -42,7 +42,7 @@ Source Code: https://github.com/ersilia-os/lazy-qsar
 License: GPL-3.0-or-later
 Contributor: miquelduranfrigola
 Incorporation Date: '2025-12-12'
-Last Packaging Date: '2026-10-22'
+Last Packaging Date: '2026-11-23'
 Release: v2.0.2
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9f7c.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos9f7c
@@ -52,9 +52,9 @@ Docker Architecture:
 Apptainer: https://models-sif.s3.eu-north-1.amazonaws.com/eos9f7c_v2.sif
 Model Size: 11.0
 Environment Size: 6954.0
-Image Size: 1912.2
-Computational Performance 1: 33.4
-Computational Performance 2: 23.48
-Computational Performance 3: 26.25
-Computational Performance 4: 99.88
-Computational Performance 5: 436.98
+Image Size: 3130.18
+Computational Performance 1: 35.62
+Computational Performance 2: 24.97
+Computational Performance 3: 27.49
+Computational Performance 4: 52.66
+Computational Performance 5: 158.34
